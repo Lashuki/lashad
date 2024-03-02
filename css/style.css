@@ -1,0 +1,950 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* -------------------header-------------------- */
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+.section_1 {
+    width: 100%;
+    height: 754px;
+
+}
+
+.navigation {
+    padding: 24px;
+}
+
+.img_background {
+    background-image: url(../photo/Hero\ Section\ \(1\).png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+.navigation {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 24px; */
+    width: 100%;
+}
+
+.elements_navi {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.list_navi {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.list_navi li a {
+    color: var(--Gray-Scale-800, #4B4B4B);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.hero_circle {
+    width: 982px;
+    height: 982px;
+    border-radius: 50%;
+    left: -250.214px;
+    top: -114.442px;
+    background-color: white;
+    position: absolute;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+}
+
+.skydrone {
+    color: var(--Gray-Scale-900, #393939);
+    font-family: Raleway;
+    font-size: 30.062px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.hero_content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 193px;
+    gap: 24px;
+    padding: 24px;
+}
+
+h1 {
+    color: var(--Gray-Scale-800, #4B4B4B);
+    font-family: Raleway;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.48px;
+}
+
+h2 {
+    display: none;
+}
+
+.hero_p {
+    color: var(--yellow-yellow-900, #612B00);
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+
+.butt_background {
+    border-radius: 4px;
+    background: var(--Orange-orange-300, #DF8928);
+    padding: 12px 24px;
+}
+
+.butt_sp1 {
+    color: var(--white-1000, #FFF);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.butt_sp2 {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.tablet_br {
+    display: none;
+}
+
+
+/* -------------companies-------------- */
+
+
+
+/* .companies {
+    max-width: 1840px;
+    margin: auto;
+    position: relative;
+    padding-top: 60px;
+    z-index: 999;
+    background-color: white;
+} */
+
+.about_drone {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.three_person {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.contacts {
+    max-width: 1440px;
+    margin: auto;
+}
+
+
+
+.companies_describe_par {
+    color: var(--Gray-Scale-800, #4B4B4B);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -0.24px;
+    margin-top: 128px;
+}
+
+.first_list {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+
+.second_list {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 145px;
+}
+
+
+/* -------middle_list-------- */
+
+.middle_list {
+    display: flex;
+    margin-top: 224px;
+    background: var(--yellow-dark-dark-50, #F3F3F3);
+    padding: 24px 0px;
+    gap: 48px;
+}
+
+.middle_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    color: var(--Gray-Scale-700, #5E5E5E);
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -0.24px;
+}
+
+.shape {
+    width: 11.358px;
+    height: 11.358px;
+    border-radius: 50%;
+    background-color: var(--Gray-Scale-700, #5E5E5E);
+}
+
+/* ---------about_drone---------- */
+
+
+
+.about_drone {
+    display: flex;
+    gap: 80px;
+    margin-top: 160px;
+}
+
+.about_drone_for_image img {
+    max-width: 616px;
+}
+
+
+.about_drone_second_items {
+    margin: auto;
+    max-width: 616px;
+}
+
+.vertical_space {
+    display: flex;
+    flex-direction: column;
+    max-width: 616px;
+}
+
+.vertical_space_first_para {
+    color: var(--Orange-orange-300, #DF8928);
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+
+}
+
+.vertical_space_second_para {
+    color: var(--Gray-Scale-800, #4B4B4B);
+    font-family: Raleway;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.48px;
+    margin-top: 24px;
+}
+
+.circle_image {
+    margin-top: 32px;
+}
+
+
+.horizontal_space {
+    display: flex;
+    gap: 24px;
+    margin-top: 16px;
+}
+
+.horizontal_space_first_item {
+    max-width: 260px;
+}
+
+.horizontal_space_second_item {
+    max-width: 260px;
+}
+
+.horizontal_space_same {
+    color: var(--Gray-Scale-800, #4B4B4B);
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -0.24px;
+}
+
+.horizontal_space_same_para {
+    color: var(--Gray-Scale-800, #4B4B4B);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 16px;
+}
+
+/* --------------three people-------------- */
+
+.three_same_image {
+    display: flex;
+    margin: auto;
+}
+
+
+.customer_name {
+    color: var(--Black, #000);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    margin-top: 16px;
+}
+
+.position_company_name {
+    color: var(--Black, #000);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.full_decribe {
+    color: var(--Black, #000);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 24px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.three_person {
+    display: flex;
+    gap: 48px;
+    margin-top: 112px;
+    justify-content: center;
+}
+
+
+/* -----------second_background--------- */
+
+
+.second_background {
+
+    background-image: url(../photo/CTA\ Section.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color: var(--Gray-Scale-800, #4B4B4B);
+    font-family: Raleway;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.48px;
+    margin-top: 192px !important;
+    text-align: center;
+    margin: auto;
+
+}
+
+.second_background_para {
+    display: flex;
+    justify-content: center;
+    color: var(--Gray-Scale-800, #4B4B4B);
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 24px;
+    /* margin: auto; */
+
+}
+
+.second_background_para span {
+    max-width: 480px;
+    text-align: center;
+}
+
+
+.last_button {
+    border-radius: 4px;
+    border: 1px solid var(--Orange-orange-600, #C4730A);
+    background: var(--Orange-orange-600, #C4730A);
+
+
+    display: flex;
+    padding: 12px 24px;
+    gap: 8px;
+    margin: auto;
+    margin-top: 24px;
+}
+
+.last_btn_para {
+    color: var(--white-1000, #FFF);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+/* ----------rectangle_background------ */
+
+
+.rectangle_background {
+    background-image: url(../photo/123321.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px;
+}
+
+.agtech_comp_para {
+    color: #FCF6F0;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    max-width: 550px;
+    margin-top: 16px;
+}
+
+.download_spa {
+    color: #FCF6F0;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.32px;
+}
+
+.two_download {
+    display: flex;
+    gap: 16px;
+    margin-top: 36px;
+}
+
+
+
+
+/* -------contact----------- */
+
+
+.contact_sp {
+    color: var(--Orange-orange-600, #C4730A);
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+}
+
+.talk_to_us_sp {
+    color: var(--Gray-Scale-800, #4B4B4B);
+    font-family: Raleway;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.48px;
+}
+
+.email_class {
+    display: flex;
+    flex-direction: column;
+    margin-top: 74px;
+    gap: 16px;
+
+}
+
+.contacts_layers {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 128px;
+}
+
+.email_class :nth-child(2) {
+    color: var(--Gray-Scale-800, #4B4B4B);
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.32px;
+}
+
+.pin_class :nth-child(2) {
+    color: var(--Gray-Scale-800, #4B4B4B);
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.32px;
+}
+
+
+.pin_class :nth-child(3) {
+    color: var(--Gray-Scale-800, #4B4B4B);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.pin_class {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 16px;
+}
+
+.phone_class {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.map_and_other {
+    display: flex;
+    justify-content: space-between;
+}
+
+.map_class {
+    display: flex;
+    align-items: end;
+    margin-top: 65px;
+}
+
+/* ------------footer---------- */
+
+footer {
+    background-color: var(--Gray-Scale-800, #4B4B4B);
+}
+
+.footer_space_hr1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.footer_space_hr1_start_space span {
+    align-items: center;
+}
+
+.footer_space_hr1_end_space {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer_space_hr1_end_space button {
+    text-align: start;
+}
+
+.footer_space_hr1_end_space button span {
+    color: var(--white-1000, #FFF);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.footer_title {
+    color: var(--Gray-Scale-50, #F3F3F3);
+    font-family: Raleway;
+    font-size: 41.683px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%
+}
+
+.horiz_line {
+    height: 1px;
+    align-self: stretch;
+    background: var(--Gray-Scale-700, #5E5E5E);
+}
+
+.hl {
+    padding: 20px;
+}
+
+.footer_space_hr2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+.footer_last_button {
+    display: flex;
+    gap: 24px;
+}
+
+.footer_space_hr2 span {
+    color: #F3F3F3;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 120px;
+}
+
+.usynlig {
+    padding: 20px;
+}
+
+.agency {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------header query----------------- */
+
+
+@media screen and (max-width:1500px) {
+    .contacts {
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:1340px) {
+    .about_drone_second_items {
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:1244px) {
+    .hero_circle {
+        width: 882px;
+        height: 882px;
+    }
+
+    .section_1 {
+        height: 650px;
+    }
+
+    .map_class img {
+        max-width: 520px;
+
+    }
+
+
+
+    /* -------about_drone------- */
+
+
+    .about_drone_for_image img {
+        max-width: 460px;
+    }
+
+
+    .about_drone_second_items {
+        max-width: 460px;
+    }
+
+    .rectangle_background {
+        padding: 26px;
+    }
+
+    .agtech_comp_para {
+        text-align: center;
+    }
+
+    .download_spa {
+        text-align: center;
+
+    }
+
+    .middle_list {
+        font-size: 18px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width:1080px) {
+    .hero_circle {
+        width: 782px;
+        height: 782px;
+    }
+
+    .section_1 {
+        height: 600px;
+    }
+
+    .hero_p {
+        font-size: 16px;
+    }
+
+    /* -------companies_list------ */
+
+    .first_list :nth-of-type(n) {
+        width: 140px;
+    }
+
+    .second_list :nth-child(n) {
+        width: 140px;
+    }
+
+    /* -----middle_list------- */
+
+    .middle_list {
+        font-size: 18px;
+    }
+
+    /* -------about_drone------- */
+
+
+    .about_drone_for_image img {
+        max-width: 364px;
+    }
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width:956px) {
+    .hero_circle {
+        width: 682px;
+        height: 682px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .hero_p {
+        font-size: 15px;
+    }
+
+    .section_1 {
+        height: 450px;
+    }
+
+    /* ----------------------------------------------------------------- */
+    .map_class img {
+        max-width: 420px;
+
+    }
+
+
+    /* ------companies_list----- */
+
+    .first_list :nth-of-type(n) {
+        width: 120px;
+    }
+
+    .second_list :nth-of-type(n) {
+        width: 120px;
+    }
+
+
+    /* -----middle_list------- */
+
+    .middle_list {
+        font-size: 12px;
+        gap: 28px;
+    }
+
+    .rectangle_background {
+        padding: 24px;
+    }
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width:860px) {
+    .hero_circle {
+        width: 632px;
+        height: 632px;
+    }
+
+    .hero_content {
+        top: 136px;
+    }
+
+    .two_download {
+        flex-direction: column;
+    }
+
+    .rectangle_background {
+        padding: 20px;
+    }
+
+    .hero_p {
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width:760px) {
+    .hero_circle {
+        width: 582px;
+        height: 582px;
+    }
+
+    .section_1 {
+        height: 400px;
+    }
+
+    .hero_p {
+        font-size: 11px;
+    }
+    
+    /* --------companies_list------ */
+
+
+    .companies_describe_par {
+        font-size: 16px;
+        margin-top: 96px;
+    }
+
+    .first_list {
+        gap: 28px;
+        margin-top: 80px;
+    }
+
+
+    .second_list {
+        gap: 28px;
+        margin-top: 64px;
+    }
+
+
+
+    .rectangle_background {
+        flex-direction: column;
+    }
+
+    .map_class img {
+        max-width: 320px;
+
+    }
+
+
+
+}

@@ -1,0 +1,309 @@
+/* -----------header---------- */
+
+.button_burger {
+    display: none;
+    width: 24px;
+    height: 24px;
+}
+
+.sm_img_background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* -------------header query------------ */
+
+@media screen and (max-width:870px) {
+        .elements_navi {
+        display: none;
+    }
+
+    .button_burger {
+        display: block;
+    }
+}
+
+@media screen and (max-width:800px) {
+    /* .elements_navi {
+        display: none;
+    }
+
+    .button_burger {
+        display: block;
+    } */
+
+    .main_titl {
+        font-size: 31px;
+    }
+
+    /* ----foooter---- */
+
+    .footer_space_hr2 {
+        flex-direction: column;
+    }
+
+    .footer_last_button {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:750px) {
+
+
+    /* ---about_drone--- */
+
+    .horizontal_space_same{
+        font-size: 16px;
+    }
+
+    .horizontal_space_same_para {
+        font-size: 16px;
+    }
+
+    .about_drone {
+        flex-direction: column;
+    }
+
+    .about_drone_for_image img {
+        max-width: 560px;
+    }
+
+    .vertical_space_first_para {
+        font-size: 18px;
+    }
+
+    .vertical_space_second_para {
+        font-size: 27px;
+    }
+
+    .twise {
+        display: flex;
+        justify-content: end;
+    }
+
+
+    /* ----------second_background------- */
+
+    h3 {
+        font-size: 27px;
+    }
+
+    .second_background_para {
+        font-size: 12px;
+    }
+
+    /* ---------------footer---------- */
+
+    .footer_space_hr1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 36px;
+    }
+
+    .agency {
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 680px) {
+
+    .map_class img {
+        max-width: 320px; 
+        
+    }
+
+    .three_person {
+        flex-direction: column;
+    }
+    
+    .middle_list {
+        display: none;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:580px) {
+
+    .hero_circle {
+        display: none;
+    }
+
+    .sm_svg {
+        width: 13.509px;
+        height: 13.509px;
+    }
+
+    .skydrone {
+        font-size: 18.79px;
+    }
+
+
+    .sm_img_background {
+        background-image: url(../photo/tabblet_mobile.png);
+
+    }
+
+    .section_1 {
+        height: 754px;
+    }
+
+
+    .hero_content {
+        display: block;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        gap: 24px;
+        width: 100%;
+
+    }
+
+    h1 {
+        color: var(--Gray-Scale-800, #4B4B4B);
+        text-align: center;
+        font-family: Raleway;
+        font-size: 28px;
+        letter-spacing: -0.28px;
+    }
+
+    .hero_p {
+        color: var(--yellow-yellow-900, #612B00);
+        text-align: center;
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+
+    }
+
+    #desk_br {
+        display: none;
+    }
+
+    .tablet_br {
+        display: block;
+    }
+
+    .btt_sp2 {
+        color: var(--white-1000, #FFF);
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+    }
+
+    .butt_background {
+        display: flex;
+        padding: 12px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        margin: auto;
+    }
+
+    /* ---------companies_list----------- */
+
+    .companies_describe_par {
+        margin-top: 76px;
+    }
+
+
+    .first_list {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .first_list :nth-of-type(n) {
+        margin-top: 64px;
+    }
+
+
+    .second_list {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+
+    .second_list :nth-of-type(n) {
+        margin-top: 64px;
+    }
+
+
+
+    /* ---about_drone-- */
+
+    .about_drone_for_image img {
+        max-width: 510px;
+    }
+
+
+    .map_class img {
+        max-width: 320px; 
+        margin: auto;
+    }
+    .map_and_other {
+        flex-direction: column;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:530px) {
+
+
+    /* ---about_drone-- */
+
+    .about_drone_for_image img {
+        max-width: 420px;
+    }
+
+    .twise {
+        display: flex;
+        justify-content: end;
+    }
+}
+
+    /* ---about_drone-- */
+
+
+@media screen and (max-width:440px) {
+
+    /* ---about_drone-- */
+
+
+    .about_drone_for_image img {
+        max-width: 320px;
+    }
+
+    .three_person {
+        flex-direction: column;
+    }
+
+    .twise {
+        display: flex;
+        justify-content: end;
+    }
+
+}
